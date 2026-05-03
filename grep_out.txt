@@ -1,0 +1,10 @@
+120:    strengthHighTicketTitle: "High-Ticket Specialist",
+404:    strengthHighTicketTitle: "高客�    exp1Role: "高级营销主管",
+131:    exp1Role: "Senior Marketing Supervisor",
+404:    strengthHighTicketTitle: "高客�    exp1Role: "高级营销主管",
+416:    exp1Role: "高级营销主管",
+939:      role: t("exp1Role"),
+163:    serv2Details: "High-stakes B2B businesses often struggle with fragmented channels, opaque ROI, and escalating acquisition costs. I architect comprehensive lead generation ecosystems designed for complex sales cycles. By mapping multi-touchpoint journeys across content, digital commerce, social matrices, and private communities, I ensure no lead is left behind. My approach has consistently delivered seamless conversion—from first touch to final inquiry—achieving premium growth with maximum cost-efficiency.",
+417:    exp1Desc: "在扁平�    serv2Details: "高价值 B2B 企业经常面临渠道分散、ROI 不透明以及获客成本攀升的挑战。我致力于构建专为复杂销售周期设计的全面获客生态系统。通过在内容、数字商务、社交矩阵和私域社区之间规划多触点路径，我确保没有任何一个线索被遗漏。我的方法始终能够实现无缝转化——从首次接触到最终咨询——在保持最高成本效益的同时，实现稳健的增长。",
+450:    serv2Details: "高价值 B2B 企业经常面临渠道分散、ROI 不透明以及获客成本攀升的挑战。我致力于构建专为复杂销售周期设计的全面获客生态系统。通过在内容、数字商务、社交矩阵和私域社区之间规划多触点路径，我确保没有任何一个线索被遗漏。我的方法始终能够实现无缝转化——从首次接触到最终咨询——在保持最高成本效益的同时，实现稳健的增长。",
+1259:              {t("serv2Details")}

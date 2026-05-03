@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=Petit+Formal+Script&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", serif;
+  --font-cursive: "Petit Formal Script", cursive;
+  
+  --color-brand-black: #020406;
+  --color-brand-dark: #584940;
+  --color-brand-light-beige: #DDD5D3;
+  --color-brand-light-gray: #E2E3DE;
+  --color-brand-warm-beige: #E3D3C4;
+  --color-brand-offwhite: #FDFDFB;
+
+  /* Semantic aliases */
+  --color-bg-primary: var(--color-brand-offwhite);
+  --color-bg-secondary: var(--color-brand-warm-beige);
+  --color-bg-tertiary: var(--color-brand-light-beige);
+
+  --color-text-primary: var(--color-brand-black);
+  --color-text-secondary: var(--color-brand-dark);
+  
+  --color-accent: var(--color-brand-dark);
+  --color-border: var(--color-brand-light-beige);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-text-primary selection:bg-accent selection:text-white font-sans antialiased;
+    letter-spacing: -0.011em;
+  }
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-[20px] border-b border-white/20 shadow-[0_4px_30px_rgba(0,0,0,0.03)];
+}
+
+.apple-container {
+  @apply max-w-[1440px] mx-auto px-8 md:px-16;
+}
+
+/* Content inner constrained to ~1320px (1440 - 2*64 = 1312) following 8px grid */
+.content-inner {
+  @apply max-w-[1312px] mx-auto w-full px-8 md:px-0;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
